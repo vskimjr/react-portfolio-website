@@ -1,0 +1,100 @@
+.About {
+  position: flex;
+}
+
+.btn-about {
+  border-radius: 1rem;
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  padding: 10px 20px; /* Adjust padding to increase button size */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+
+  /* Background color when not hovered */
+  background-color: #D3D3D3;
+  font-weight: bold;
+}
+
+.btn-about:hover {
+  background-color: #A9A9A9; /* Darker shade of gray */
+}
+
+.about-text-paragraph{
+  width: 80%; /* Adjust the width as per your preference */
+  text-align: left;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-text-p1 {
+  font-size: 1.25rem;
+}
+
+.about-text-long {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.about-text-p3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom:1px
+}
+
+.about-text-p4 {
+  font-size: 1.15rem;
+}
+
+.about-text-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: .5;
+  margin-bottom: 1.75rem;
+}
+
+.about-section-header {
+  font-size: 1.75em;
+  font-weight: bold;
+  padding:10px;
+}
+
+.bi-book,
+.bi-laptop {
+  font-size: 2em;
+  margin-bottom: 12px;
+  padding: 10px
+}
+
+.about-container-details {
+  width: 80%; /* Adjust the width as per your preference */
+  border: 2px solid #ccc;
+  border-radius: 1.5rem;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto; /* Added auto margin to center the container */
+}
+
+.detail-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-button-container {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between buttons */
+  width: 50%; /* Adjust width as needed */
+}
+
+.about-cv-button,
+.about-github {
+  flex: 1;
+}

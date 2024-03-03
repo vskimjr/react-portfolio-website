@@ -1,0 +1,60 @@
+.bi-envelope-fill,
+.bi-linkedin {
+  font-size: 2em;
+}
+
+.Contact {
+  position: flex;
+}
+
+.contact-container {
+  max-width: 500px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact-info {
+  border: 2px solid #ccc;
+  border-radius: 1.5rem;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-text-p1 {
+  font-size: 1.25rem;
+  line-height: .5;
+}
+
+.contact-text-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 1.75rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.Contact a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 1.35rem;
+  margin: 0 10px;
+}
+
+.Contact a:hover {
+  color: gray;
+}

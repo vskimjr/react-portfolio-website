@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.Homepage {
+  /* put around the vertical center of page */
+  height: calc(100vh - 150px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-picture {
+  width: 400px;
+  margin: auto;
+}
+
+.homepage-text {
+  align-self: center;
+  text-align: center;
+}
+
+.homepage-text-p1{
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+.homepage-text-p2{
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.homepage-text-p3{
+  font-size: 1.25rem;
+  line-height: 0;
+}
+
+.homepage-text-title{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: .75;
+}
