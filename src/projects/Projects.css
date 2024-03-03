@@ -1,7 +1,14 @@
 .Projects {
   display: flex;
-  justify-content: center;
+  position:flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 75vh; /* Ensure the body covers the entire viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
+
+
 
 .projects-container {
   text-align: center;
