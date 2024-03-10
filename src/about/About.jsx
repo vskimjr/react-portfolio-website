@@ -25,7 +25,7 @@ export default function About() {
           <div className="about-button-container">
             <div className="about-cv-button">
               <a
-                href="./assets/victor-kim-jr-cv.pdf"
+                href="./assets/victor-kim-cv.pdf"
                 className="btn btn-about"
                 target="_blank"
               >
