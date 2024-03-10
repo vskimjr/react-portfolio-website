@@ -11,6 +11,8 @@ import Projects from "../projects/Projects";
  */
 
 export default function RoutesList() {
+  console.debug("Routes");
+
   return (
     <div className="pt-5">
       <Routes>

@@ -1,7 +1,16 @@
 import React from "react";
 import "./Homepage.css";
 
+/** Homepage of site
+ *
+ * Routed at /
+ *
+ * RoutesList -> Homepage
+ */
+
 export default function Homepage() {
+  console.debug("Homepage");
+
   return (
     <div className="Homepage">
       <div className="container">

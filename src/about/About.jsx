@@ -1,7 +1,16 @@
 import React from "react";
 import "./About.css";
 
+/** About page of site
+ *
+ * Routed at /about
+ *
+ * RoutesList -> About
+ */
+
 export default function About() {
+  console.debug("About");
+
   return (
     <div className="container d-flex justify-content-center align-items-center h-100">
       <div className="About">
@@ -10,13 +19,7 @@ export default function About() {
           <p className="about-text-title">About Me</p>
           <div className="about-text-paragraph">
             <p className="about-text-long">
-              Throughout my professional journey, I have dedicated myself to
-              serving communities and individuals in need through non-profit
-              organizations and educational institutions. After recognizing the
-              transformative potential of technology and software in amplifying
-              impact, I became a software engineer to leverage technology's
-              capabilities to facilitate greater outreach, efficiency, and
-              effectiveness in serving marginalized communities.
+              Throughout my professional journey, I have dedicated myself to serving communities and individuals in need through non-profit organizations and educational institutions. After recognizing the transformative potential of technology and software, I became a software engineer to facilitate greater outreach, efficiency, and effectiveness in serving marginalized communities.
             </p>
           </div>
           <div className="about-button-container">
@@ -31,7 +34,7 @@ export default function About() {
             </div>
             <div className="about-github">
               <a
-                href="./assets/victor-kim-cv.pdf"
+                href="https://github.com/vskimjr"
                 className="btn btn-about"
                 target="_blank"
               >

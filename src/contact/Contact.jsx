@@ -1,7 +1,16 @@
 import React from "react";
 import "./Contact.css"; // Import the CSS file for Contact component
 
+/** Contact page of site
+ *
+ * Routed at /contact
+ *
+ * RoutesList -> Contact
+ */
+
 export default function Contact() {
+  console.debug("Contact");
+
   return (
     <div className="Contact">
       <div className="contact-container">

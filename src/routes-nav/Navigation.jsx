@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navigation.css";
 
-/** Navigation bar for site. Shows up on every page.
+/** Navigation bar for website. Shows up on every page.
  *
  *
  * Rendered by App.

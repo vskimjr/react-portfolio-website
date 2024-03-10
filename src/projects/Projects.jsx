@@ -1,7 +1,16 @@
 import React from "react";
 import "./Projects.css";
 
+/** Projects page of site
+ *
+ * Routed at /projects
+ *
+ * RoutesList -> Projects
+ */
+
 export default function Projects() {
+  console.debug("Projects");
+
   return (
     <div className="Projects">
       <div className="projects-container">
