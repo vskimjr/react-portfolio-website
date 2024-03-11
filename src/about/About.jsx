@@ -19,7 +19,7 @@ export default function About() {
           <p className="about-text-title">About Me</p>
           <div className="about-text-paragraph">
             <p className="about-text-long">
-              Throughout my professional journey, I have dedicated myself to serving communities and individuals in need through non-profit organizations and educational institutions. After recognizing the transformative potential of technology and software, I became a software engineer to facilitate greater outreach, efficiency, and effectiveness in serving marginalized communities.
+            Throughout my professional journey, I have dedicated myself to researching and implementing software solutions to streamline processes and communication that contribute to an organization’s success. After recognizing the pivotal role of technology in driving operational excellence, I became a software engineer to create tangible solutions to address nuanced and complex organizational challenges. By leveraging my expertise in software development, I am committed to designing solutions that drive productivity and foster innovation. 
             </p>
           </div>
           <div className="about-button-container">
